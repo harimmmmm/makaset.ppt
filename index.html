@@ -51,13 +51,13 @@
     crossorigin="anonymous"></script>
 
 <script>
-   const imageContainer = document.getElementById("imageContainer");
+    const imageContainer = document.getElementById("imageContainer");
 
     for (let i = 1; i <= 57; i++) {
         const img = document.createElement("img");
         const num = String(i).padStart(4, '0');
-        img.src = `makaset_ppt_${num}.png`;
-        img.alt = `makaset_ppt_${i}`; 
+        img.src = `/ITCruit.ppt/makaset_ppt_${num}.png`; 
+        img.alt = `makaset_ppt_${i}`;
         imageContainer.appendChild(img);
     }
 </script>
